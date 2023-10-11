@@ -1,0 +1,35 @@
+/* LARGE */
+@media screen and (min-width: 992px) {
+    .aside {
+        width: 140px;
+    }
+    
+    .main {
+        width: calc(100% - 140px);
+    }
+}
+
+/* MEDIUM */
+@media screen and (min-width: 768px) {
+    /* MAIN HEADER */
+    .main_header {
+        height: 120px;
+    }
+
+    /* MAIN INFO */
+    .new_student {
+        order: 3;
+    }
+    /* .main_header > div {
+        height: 100%;
+    } */
+}
+
+@media screen and (min-width: 768px) {
+    .new_student {
+        order: 3;
+    }
+}
+
+/* SMALL */
+
