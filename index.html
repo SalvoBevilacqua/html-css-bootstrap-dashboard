@@ -15,6 +15,7 @@
     </head>
 
     <body>
+        <!-- HEADER -->
         <header class="w-100 px-2">
             <nav class="navbar py-0 h-100">
                 <div class="container-fluid gap-3">
@@ -43,28 +44,59 @@
               </nav>
         </header>
 
-        <main class="wrapper d-flex">
-            <div class="aside">aside</div>
+        <!-- MAIN SCREEN -->
+        <main class="wrapper d-flex w-100">
 
+            <!-- ASIDE -->
+            <div class="aside h-100 d-flex flex-column justify-content-between bg-dark text-white p-3 align-items-center">
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-baseline gap-2 my-3">
+                        <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                        <span class="p-0 m-0 d-none d-lg-block">Home</span>
+                    </li>
+                    <li class="d-flex align-items-baseline gap-2 my-3">
+                        <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i>
+                        <span class="p-0 m-0 d-none d-lg-block">Stats</span>
+                    </li>
+                    <li class="d-flex align-items-baseline gap-2 my-3">
+                        <i class="fa-solid fa-signal" style="color: #ffffff;"></i>
+                        <span class="p-0 m-0 d-none d-lg-block">Signals</span>
+                    </li>
+                </ul>
+
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-baseline gap-2">
+                        <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+                        <span class="p-0 m-0 d-none d-lg-block">Admin</span>
+                    </li>                    
+                </ul>
+            </div>
+
+            <!-- MAIN SCREEN -->            
             <div class="main h-100">
-                <div class="main_header d-flex flex-column flex-md-row mb-2 justify-content-around align-items-start w-100">
+
+                <!-- MAIN HEADER -->
+                <div class="main_header d-flex flex-column flex-md-row justify-content-around align-items-start w-100">
                     <div class="new_student">1</div>
                     <div class="plan">2</div>
                     <div class="online">3</div>
                 </div>
 
-                <div class="container-fluid">
-                    <div class="row g-2">
-                        <div class="ms_main_first col-md-12 col-lg-8">
-                            <div class="ms_card_class mb-2">1</div>
-                            <div class="ms_card_faq">2</div>
+                <!-- MAIN INFO -->
+                <div class="main_info w-100 overflow-auto pt-2">
+                    <div class="container-fluid">
+                        <div class="row g-2">
+                            <div class="ms_main_first col-md-12 col-lg-8">
+                                <div class="ms_card_class mb-2">1</div>
+                                <div class="ms_card_faq">2</div>
+                            </div>
+        
+                            <div class="ms_main_second ms_faq col-md-12 col-lg-4">
+                                <div class="ms_card_todo mb-2">3</div>
+                                <div class="ms_card_graph">4</div>
+                            </div>
                         </div>
-    
-                        <div class="ms_main_second ms_faq col-md-12 col-lg-4">
-                            <div class="ms_card_todo mb-2">3</div>
-                            <div class="ms_card_graph">4</div>
-                        </div>
-                    </div>
+                    </div>                    
                 </div>                
             </div>
         </main>
