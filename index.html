@@ -20,7 +20,7 @@
         <!-- HEADER -->
         <header class="w-100 px-2">
             <nav class="navbar py-0 h-100">
-                <div class="container-fluid gap-3">
+                <div class="container-fluid gap-3 flex-nowrap">
                     <a class="navbar-brand m-0 d-lg-none" href="">
                         <img src="img/mobile-logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
                     </a>
@@ -40,7 +40,18 @@
                         <li class="d-none d-lg-block"><i class="fa-solid fa-list-ul"></i></li>
                         <li class="d-none d-lg-block"><i class="fa-solid fa-circle-question"></i></li>
                         <li class="d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical"></i></li>
-                        <li class="text-warning"><i class="fa-solid fa-bell"></i></li>
+                        <li>
+                            <div class="btn-group dropstart d-flex">
+                                <button class="btn border-0 p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="text-warning fa-solid fa-bell"></i>
+                                </button>
+                                <ul class="dropdown-menu ms_dropdown">
+                                    <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                    <li><a class="dropdown-item" href="#">Log Out</a></li>
+                                  </ul>                                
+                            </div>
+                        </li>
                     </ul>
                 </div>
               </nav>

@@ -27,6 +27,10 @@ header {
     outline: none;
 }
 
+.ms_dropdown {
+    top: 100% !important;
+    right: 0 !important;
+}
 
 /* MAIN */
 /* ASIDE */
