@@ -21,9 +21,12 @@
         height: calc(100% - 120px);
     }
 
+    /* MAIN INFO */
     .new_student {
         order: 3;
     }
 }
 
 /* SMALL */
+@media screen and (max-width: 768px) {
+}

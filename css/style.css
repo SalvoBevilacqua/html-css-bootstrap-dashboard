@@ -61,7 +61,18 @@ header {
     background-color: blueviolet;
 }
 
-/* INFO */
+/* MAIN INFO */
 .main_info {
     height: calc(100% - 200px);
+}
+
+.ms_orange_bg {
+    background-color: orangered;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.ms_table_text {
+    font-size: x-small;
 }
