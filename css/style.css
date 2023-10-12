@@ -5,7 +5,8 @@ img {
 
 /* ROOT */
 :root {
-    --background_1: rgb(15, 15, 15);
+    --background_main_header: rgb(27, 114, 232);
+    --background_main_header_span: rgb(22, 91, 186);
 }
 
 /* COMMON */
@@ -44,8 +45,7 @@ header {
 /* MAIN_HEADER */
 .main_header {
     height: 200px;
-    /* debug */
-    background-color: darkkhaki;
+    background-color: var(--background_main_header);
 }
 
 .main_header > div {
