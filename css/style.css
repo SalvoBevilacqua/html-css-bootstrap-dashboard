@@ -79,3 +79,8 @@ header {
 .ms_button:hover {
     background-color: grey;
 }
+
+/* OFFCANVAS */
+.ms_offcanvas {
+    width: 100% !important;
+}
