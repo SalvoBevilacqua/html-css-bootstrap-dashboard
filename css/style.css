@@ -37,6 +37,10 @@ header {
     background-size: cover;
 }
 
+.aside ul li i {
+    width: 20px;
+}
+
 /* MAIN_SCREEN */
 .main {
     width: calc(100% - 80px);
