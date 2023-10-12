@@ -65,15 +65,3 @@ header {
 .main_info {
     height: calc(100% - 200px);
 }
-
-.ms_card_class, .ms_card_todo {
-    /* debug */
-    background-color: darkgray;
-    min-height: 150px;
-}
-
-.ms_card_faq, .ms_card_graph {
-    /* debug */
-    background-color: brown;
-    min-height: 150px;
-}
