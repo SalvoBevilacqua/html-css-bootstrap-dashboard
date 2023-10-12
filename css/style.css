@@ -8,16 +8,10 @@ img {
     --background_1: rgb(15, 15, 15);
 }
 
-body {
-    /* debug */
-    background-color: aquamarine;
-}
-
 /* COMMON */
 .wrapper {
  height: calc(100vh - 80px);
 }
-
 
 /* HEADER */
 header {
@@ -45,8 +39,6 @@ header {
 /* MAIN_SCREEN */
 .main {
     width: calc(100% - 80px);
-    /* debug */
-    background-color: cornflowerblue;
 }
 
 /* MAIN_HEADER */
