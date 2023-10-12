@@ -13,17 +13,13 @@
 @media screen and (min-width: 768px) {
     /* MAIN HEADER */
     .main_header {
-        height: 120px;
+        height: 160px;
     }
     .main_info {
-        height: calc(100% - 120px);
+        height: calc(100% - 160px);
     }
     /* MAIN INFO */
     .new_student {
         order: 3;
     }
-}
-
-/* SMALL */
-@media screen and (max-width: 768px) {
 }
