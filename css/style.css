@@ -61,6 +61,14 @@ header {
     height: calc(100% - 300px);
 }
 
+.ms_main_first th, .ms_main_first td {
+    width: 15%;
+}
+
+.ms_main_first .ms_table_width {
+    width: 40%;
+}
+
 .ms_orange_bg {
     background-color: orangered;
     width: 30px;
